@@ -186,7 +186,7 @@
 
 }
     
-@media only screen and (max-width:380px) {
+@media only screen and (max-width:375px) {
 
     
      /* SECTION FEATURE BOXES  */
@@ -217,8 +217,10 @@
      .feature-team {
          margin-left: 85px;
      }
+    
+    .feature-team p {
+        font-size: 15px;
+    }
 
-     }
-
-
-     }
+    
+    }
