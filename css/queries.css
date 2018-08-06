@@ -181,8 +181,93 @@
     
     .section-header, .intro-section {
     max-width: 133%;
-    width: 768px;
+    width: 100%;
+}
+}
+
+@media only screen and (max-width: 480px) {
+    
+    .section-header, .intro-section {
+        width: 
 }
     
+    /* SECTION HEADER */
     
+    .section-header h2 {font-size: 60px;}
+    
+    .section-header p {font-size: 26px;}
+    
+    .intro-video-image .btn {left: 28%;}
+    
+    
+    /* SECTION FEATURES */
+    
+     .feature-boxes > .container {
+    display: grid;
+    grid-gap: 20px;
+    grid-template-areas: 
+        'showcase' 
+        'showcase'
+        'showcase' 
+        'showcase';
 }
+    /* SECTION WORK */
+    
+    .section-work h2 {font-size: 48px;}
+    
+    .section-work h3 {font-size: 22px;}
+    
+    .section-work--2 {padding: 0 0 0 40px;}
+    
+   
+    
+    /* How work make a grid in this section */
+    }
+
+    /* SECTION SLIDER  */
+
+    .container > .slider p {
+        width: 202px;
+        height: 143px;
+        font-size: 13px;
+    }
+
+    .container > .slider #left-arrow {
+        transform: translate(-362%, 157%);
+        width: 50px;
+        height: auto;
+    }
+
+    .container > .slider #right-arrow {
+        transform: translate(-42%, 162%);
+        width: 50px;
+        height: auto;
+    }
+
+    /* SECTION TEAM   */
+
+    section > .section-team {
+        height: 2360px;
+    }
+
+    .section-team .container > .feature-teams {
+        display: grid;
+        grid-gap: 20px;
+        grid-template-areas: 'showcase' 'showcase' 'showcase' 'showcase';
+    }
+   
+   /* FOOTER */
+
+   .page-footer {height: 860px;}
+
+   .page-footer .container__footer {grid-template-columns: repeat(auto-fit, minmax(59px, 1fr));}
+
+   .footer-text p {font-size: 15px;
+}
+   
+
+
+
+}
+
+
