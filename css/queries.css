@@ -1,5 +1,11 @@
 @media only screen and (max-width:1200px) {
 
+    html,
+    body{
+    width:100%;
+    overflow-x:hidden;
+  } 
+    
 	.page-header {max-width: 98%;}
 
 	.menu-items li a {font-size: 16px;}
